@@ -1,8 +1,35 @@
 .App {
   text-align: center;
 }
+.morePad {
+  padding-bottom: 50px;
+}
+.evenMorePad {
+  padding-bottom: 10rem;
+}
+
+#about {
+  background-color: #F1E189;
+}
+
+.svg {
+  width: 40rem;
+}
+#places {
+  background-color: #01c5c4;
+}
+.top {
+  padding-top: 12rem;
+}
+.smallTop {
+  padding-top: 6rem;
+}
+.smallBot {
+  padding-bottom: 6rem;
+}
 
 .locations {
   width: 250px;
   height: 250px;
 }
+
