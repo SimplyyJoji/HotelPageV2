@@ -19,17 +19,17 @@ function Main() {
     <>
     <section id="places">
     <Container fluid="md">
-      <Row>
-        <Col><Image className="locations" src={sf} roundedCircle /></Col>
-        <Col><Image className="locations" src={tokyo}  roundedCircle /></Col>
-        <Col><Image src="holder.js/171x180" roundedCircle /></Col>
-        <Col><Image src="holder.js/171x180" roundedCircle /></Col>
+      <Row clasName="pb-5">
+        <Col md="auto"><Image className="locations" src={sf} roundedCircle /></Col>
+        <Col md="auto"><Image className="locations" src={seattle} roundedCircle /></Col>
+        <Col md="auto"><Image className="locations" src={chicago} roundedCircle /></Col>
+        <Col md="auto"><Image className="locations" src={ny} roundedCircle /></Col>
       </Row>
-      <Row>
-        <Col><Image src="holder.js/171x180" roundedCircle /></Col>
-        <Col><Image src="holder.js/171x180" roundedCircle /></Col>
-        <Col><Image src="holder.js/171x180" roundedCircle /></Col>
-        <Col><Image src="holder.js/171x180" roundedCircle /></Col>
+      <Row clasName="pt-5">
+        <Col md="auto"><Image className="locations" src={singapore} roundedCircle /></Col>
+        <Col md="auto"><Image className="locations" src={dubai} roundedCircle /></Col>
+        <Col md="auto"><Image className="locations" src={tokyo} roundedCircle /></Col>
+        <Col md="auto"><Image className="locations" src={tokyo} roundedCircle/></Col>
       </Row>
     </Container>
     </section>
