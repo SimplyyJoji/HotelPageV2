@@ -1,4 +1,4 @@
-import { Container,Row,Col,Image,Form } from 'react-bootstrap';
+import { Container,Row,Col,Image,Form,Card,Button } from 'react-bootstrap';
 import '../App.css';
 import sf from "../imgs/amogh-manjunath-HksFlo1t8iA-unsplash.jpg";
 import tokyo from '../imgs/alexander-schimmeck-OKdKNyD1RLI-unsplash.jpg';
@@ -19,7 +19,7 @@ function Main() {
     <>
     <section id="banner"> 
     <Row className="d-flex justify-content-center py-5">
-      <h1 className="text-center text-light py-4">Plan a vacation with us!</h1>
+      <h1 className="text-center text-light py-4 display-3">Plan a vacation with us!</h1>
         <Col md="auto mx-3"><Image className="seasons" src={city} roundedCircle /></Col>
         <Col md="auto mx-3"><Image className="seasons" src={beach} roundedCircle /></Col>
         <Col md="auto mx-3"><Image className="seasons" src={tropical} roundedCircle /></Col>
@@ -42,11 +42,43 @@ function Main() {
 </Form>
     </section>
 
+    <section id="cards">
+      <div className="row mt-3">
+        <div className="col">
+        <Card style={{ width: '38rem' }}>
+        <Card.Img variant="top" src={sf} />
+        <Card.Body className="text-center">
+        <Card.Title>Card Title</Card.Title>
+        <Button variant="primary">Go somewhere</Button>
+        </Card.Body>
+        </Card>
+        </div>
+        <div className="col">
+        <Card style={{ width: '38rem' }}>
+        <Card.Img variant="top" src={sf} />
+        <Card.Body className="text-center"s>
+        <Card.Title className="text-center">Card Title</Card.Title>
+        <Button variant="primary">Go somewhere</Button>
+        </Card.Body>
+        </Card>
+        </div>
+        <div className="col">
+        <Card style={{ width: '38rem' }}>
+        <Card.Img variant="top" src={sf} />
+        <Card.Body className="text-center"s>
+        <Card.Title className="text-center">Card Title</Card.Title>
+        <Button variant="primary">Go somewhere</Button>
+        </Card.Body>
+        </Card>
+        </div>
+      </div>
+    </section>
+
     <section id="about">
     <Container fluid="md">
       <Row className="more evenMorePad">
         <Col md="auto mx-8"><Image className="svg " src={imgSvg} roundedCircle /></Col>
-        <Col md="auto mx-4">
+        <Col md="auto mx-3">
           <figure className="top">
             <blockquote class="blockquote">
               <p>“Travel is about the gorgeous feeling of teetering in the unknown.”</p>
