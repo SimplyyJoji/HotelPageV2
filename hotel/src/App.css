@@ -1,6 +1,9 @@
 .App {
   text-align: center;
 }
+.nav {
+  width: 70px;
+}
 .morePad {
   padding-bottom: 50px;
 }
