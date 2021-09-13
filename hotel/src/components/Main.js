@@ -9,8 +9,8 @@ import singapore from '../imgs/swapnil-bapat-sJ7pYyJFyuA-unsplash.jpg';
 import seattle from '../imgs/thom-milkovic-skUTVJi8-jc-unsplash.jpg';
 import snow from '../imgs/josh-hild-_TuI8tZHlk4-unsplash.jpg';
 import city from '../imgs/max-bender-VmX3vmBecFE-unsplash.jpg';
+import beach from '../imgs/sean-oulashin-KMn4VEeEPR8-unsplash.jpg';
 import tropical from '../imgs/alevision-co-3jlUF7-3-4E-unsplash.jpg';
-import banner from '../imgs/alexander-kaunas-xEaAoizNFV8-unsplash.jpg';
 import imgSvg from '../imgs/flight.svg';
 
 
@@ -18,16 +18,17 @@ function Main() {
   return (
     <>
     <section id="banner"> 
-    <Row className="d-flex justify-content-center pt-5">
-      <h1 className="text-center text-light">Plan a vacation with us!</h1>
+    <Row className="d-flex justify-content-center py-5">
+      <h1 className="text-center text-light py-4">Plan a vacation with us!</h1>
         <Col md="auto mx-3"><Image className="seasons" src={city} roundedCircle /></Col>
-        <Col md="auto mx-3"><Image className="seasons" src={city} roundedCircle /></Col>
+        <Col md="auto mx-3"><Image className="seasons" src={beach} roundedCircle /></Col>
         <Col md="auto mx-3"><Image className="seasons" src={tropical} roundedCircle /></Col>
         <Col md="auto mx-3"><Image className="seasons" src={snow} roundedCircle /></Col>
     </Row>
     <Form>
+    <Container>
   <Row className="pt-5">
-    <Col>
+    <Col md={7}>
       <Form.Control placeholder="Location" />
     </Col>
     <Col>
@@ -37,6 +38,7 @@ function Main() {
     <Form.Control placeholder="Departure" />
     </Col>
   </Row>
+  </Container>
 </Form>
     </section>
 
