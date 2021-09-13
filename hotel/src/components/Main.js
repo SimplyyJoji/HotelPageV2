@@ -1,4 +1,4 @@
-import { Container,Row,Col,Image } from 'react-bootstrap';
+import { Container,Row,Col,Image,Form } from 'react-bootstrap';
 import '../App.css';
 import sf from "../imgs/amogh-manjunath-HksFlo1t8iA-unsplash.jpg";
 import tokyo from '../imgs/alexander-schimmeck-OKdKNyD1RLI-unsplash.jpg';
@@ -17,6 +17,29 @@ import imgSvg from '../imgs/flight.svg';
 function Main() {
   return (
     <>
+    <section id="banner"> 
+    <Row className="d-flex justify-content-center pt-5">
+      <h1 className="text-center text-light">Plan a vacation with us!</h1>
+        <Col md="auto mx-3"><Image className="seasons" src={city} roundedCircle /></Col>
+        <Col md="auto mx-3"><Image className="seasons" src={city} roundedCircle /></Col>
+        <Col md="auto mx-3"><Image className="seasons" src={tropical} roundedCircle /></Col>
+        <Col md="auto mx-3"><Image className="seasons" src={snow} roundedCircle /></Col>
+    </Row>
+    <Form>
+  <Row className="pt-5">
+    <Col>
+      <Form.Control placeholder="Location" />
+    </Col>
+    <Col>
+    <Form.Control placeholder="Arrival" />
+    </Col>
+    <Col>
+    <Form.Control placeholder="Departure" />
+    </Col>
+  </Row>
+</Form>
+    </section>
+
     <section id="about">
     <Container fluid="md">
       <Row className="more evenMorePad">
