@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2c0d8af4.chunk.css",
+    "main.js": "/static/js/main.83200fc7.chunk.js",
+    "main.js.map": "/static/js/main.83200fc7.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.4b0e004b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.4b0e004b.js.map",
+    "static/js/2.6acd8303.chunk.js": "/static/js/2.6acd8303.chunk.js",
+    "static/js/2.6acd8303.chunk.js.map": "/static/js/2.6acd8303.chunk.js.map",
+    "static/js/3.edb92343.chunk.js": "/static/js/3.edb92343.chunk.js",
+    "static/js/3.edb92343.chunk.js.map": "/static/js/3.edb92343.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.2c0d8af4.chunk.css.map": "/static/css/main.2c0d8af4.chunk.css.map",
+    "static/js/2.6acd8303.chunk.js.LICENSE.txt": "/static/js/2.6acd8303.chunk.js.LICENSE.txt",
+    "static/media/alevision-co-3jlUF7-3-4E-unsplash.a808792e.jpg": "/static/media/alevision-co-3jlUF7-3-4E-unsplash.a808792e.jpg",
+    "static/media/App.css": "/static/media/alexander-kaunas-xEaAoizNFV8-unsplash.240c67f9.jpg",
+    "static/media/alexander-schimmeck-OKdKNyD1RLI-unsplash.c5502d3f.jpg": "/static/media/alexander-schimmeck-OKdKNyD1RLI-unsplash.c5502d3f.jpg",
+    "static/media/amogh-manjunath-HksFlo1t8iA-unsplash.5a641213.jpg": "/static/media/amogh-manjunath-HksFlo1t8iA-unsplash.5a641213.jpg",
+    "static/media/andreas-kruck-l8ypMiU1Hio-unsplash.482b2396.jpg": "/static/media/andreas-kruck-l8ypMiU1Hio-unsplash.482b2396.jpg",
+    "static/media/flight.43d54398.svg": "/static/media/flight.43d54398.svg",
+    "static/media/fredrik-ohlander-fCW1hWq2nq0-unsplash.e987eb92.jpg": "/static/media/fredrik-ohlander-fCW1hWq2nq0-unsplash.e987eb92.jpg",
+    "static/media/josh-hild-_TuI8tZHlk4-unsplash.5f180b15.jpg": "/static/media/josh-hild-_TuI8tZHlk4-unsplash.5f180b15.jpg",
+    "static/media/max-bender-VmX3vmBecFE-unsplash.16eee41b.jpg": "/static/media/max-bender-VmX3vmBecFE-unsplash.16eee41b.jpg",
+    "static/media/sawyer-bengtson--csZbF1o5_k-unsplash.e618ce3d.jpg": "/static/media/sawyer-bengtson--csZbF1o5_k-unsplash.e618ce3d.jpg",
+    "static/media/sean-oulashin-KMn4VEeEPR8-unsplash.3bbba874.jpg": "/static/media/sean-oulashin-KMn4VEeEPR8-unsplash.3bbba874.jpg",
+    "static/media/swapnil-bapat-sJ7pYyJFyuA-unsplash.83ae81e1.jpg": "/static/media/swapnil-bapat-sJ7pYyJFyuA-unsplash.83ae81e1.jpg",
+    "static/media/thom-milkovic-skUTVJi8-jc-unsplash.f4d6dce6.jpg": "/static/media/thom-milkovic-skUTVJi8-jc-unsplash.f4d6dce6.jpg",
+    "static/media/world.b8266a86.svg": "/static/media/world.b8266a86.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4b0e004b.js",
+    "static/js/2.6acd8303.chunk.js",
+    "static/css/main.2c0d8af4.chunk.css",
+    "static/js/main.83200fc7.chunk.js"
+  ]
+}
