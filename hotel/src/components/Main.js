@@ -44,7 +44,8 @@ function Main() {
 
     <section id="cards">
       <div className="row mt-3">
-        <div className="col">
+        
+      
         <Card style={{ width: '38rem' }}>
         <Card.Img variant="top" src={sf} />
         <Card.Body className="text-center">
@@ -70,7 +71,7 @@ function Main() {
         <Button variant="primary">Go somewhere</Button>
         </Card.Body>
         </Card>
-        </div>
+        
       </div>
     </section>
 
